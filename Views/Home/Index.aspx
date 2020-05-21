@@ -8,24 +8,24 @@
 </head>
 <body background="../../Content/Imagenes/TeamFive.png" />
 <nav>
-<a href="/Persona/Index" class="style1" style="color:#000000; font-size: 20px; text-align: center"><span class="style1">Ver Lista Empleados</span></a>
-<span class="style1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+<a href="/Persona/Index" style="color:#000000; font-size: 20px; text-align: center">Ver Lista Empleados</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 
-<a href="/Persona/Index" class="style1" style="color:#000000; font-size: 20px; text-align: center"><span class="style1">Ver Lista Temas</span></a>
-<span class="style1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+<a href="/Curso_Tema_Video/Tema" style="color:#000000; font-size: 20px; text-align: center">Ver Lista Temas</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-<a href="/Persona/Index" class="style1" style="color:#000000; font-size: 20px; text-align: center"><span class="style1">Ver Lista Videos</span></a>
+<a href="/Curso_Tema_Video/Video" style="color:#000000; font-size: 20px; text-align: center">Ver Lista Videos</a>
 <br />
 
-<a href="/Persona/Index" class="style1" style="color:#000000; font-size: 20px; text-align: center"><span class="style1">Ver Lista Cursos</span></a>
-<span class="style1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+<a href="//Curso_Tema_Video/Curso" style="color:#000000; font-size: 20px; text-align: center">Ver Lista Cursos</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-<a href="/Persona/Index" class="style1" style="color:#000000; font-size: 20px; text-align: center"><span class="style1">Ver Lista de Temas de un Curso</span></a>
-<span class="style1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+<a href="/Curso_Tema_Video/Curso_Tema" style="color:#000000; font-size: 20px; text-align: center">Ver Lista de Temas de un Curso</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-<a href="/Persona/Index" class="style1" style="color:#000000; font-size: 20px; text-align: center"><span class="style1">Ver Lista de Video de un Tema de Curso</span></a>
+<a href="/Curso_Tema_Video/Curso_Tema_Video" style="color:#000000; font-size: 20px; text-align: center">Ver Lista de Video de un Tema de Curso</a>
 </nav>
-<h1 class="style2" style="color: #ffffff; font-size: 70px; text-align: center; text-decoration: overline">♥ PIA ♥</h1>
-<h1 class="style2" style="color: #006c7d; font-size: 60px; text-align: center;">Desarrollo de Software</h1>
+<h1 class="style2" style="color: #ffffff; font-size: 50px; text-align: center; text-decoration: overline">♥ PIA ♥</h1>
+<h1 class="style2" style="color: #006c7d; font-size: 50px; text-align: center;">Desarrollo de Software</h1>
 </body>
 </html>
