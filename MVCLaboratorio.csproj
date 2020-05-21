@@ -78,6 +78,9 @@
     <Compile Include="Utilerias\BaseHelper.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Imagenes\logo-facpya.jpg" />
+    <Content Include="Content\Imagenes\Team-Five.jpg" />
+    <Content Include="Content\Imagenes\TeamFive.png" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Views\Home\Index.aspx" />
