@@ -8,19 +8,19 @@
 </head>
 <body background="../../Content/Imagenes/TeamFive.png" />
 <nav>
-<a href="/Empleados/Empleados" style="color:#000000; font-size: 20px; text-align: center">Ver Lista Empleados</a>
+<a href="#" style="color:#000000; font-size: 20px; text-align: center">Ver Lista Empleados</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 
-<a href="/Temas/Temas" style="color:#000000; font-size: 20px; text-align: center">Ver Lista Temas</a>
+<a href="#" style="color:#000000; font-size: 20px; text-align: center">Ver Lista Temas</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-<a href="/Videos/Videos" style="color:#000000; font-size: 20px; text-align: center">Ver Lista Videos</a>
+<a href="#" style="color:#000000; font-size: 20px; text-align: center">Ver Lista Videos</a>
 <br />
 
-<a href="/Curso/Curso" style="color:#000000; font-size: 20px; text-align: center">Ver Lista Cursos</a>
+<a href="#" style="color:#000000; font-size: 20px; text-align: center">Ver Lista Cursos</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-<a href="/Curso_Tema/Curso_Tema" style="color:#000000; font-size: 20px; text-align: center">Ver Lista de Temas de un Curso</a>
+<a href="#" style="color:#000000; font-size: 20px; text-align: center">Ver Lista de Temas de un Curso</a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 <a href="/Curso_Tema_Video/Curso_Tema_Video" style="color:#000000; font-size: 20px; text-align: center">Ver Lista de Video de un Tema de Curso</a>
