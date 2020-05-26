@@ -37,9 +37,9 @@ namespace MVCLaboratorio.Controllers
             return View(repoCTV.obtenerCurso_Tema_Video(id));
         }
         [HttpPost]
-        public ActionResult Curso_Tema_VideoInsert(int id, Curso_Tema_Video datos)
+        public ActionResult Curso_Tema_VideoInsert(int id, Curso datos)
         {
-            datos.IdCTV = id;
+            datos.IdCurso = id;
             repoCTV.insertarCurso_Tema_Video(datos);
             return RedirectToAction("Curso_Tema_Video");
         }
@@ -60,9 +60,9 @@ namespace MVCLaboratorio.Controllers
             return View(repoCTV.obtenerCurso_Tema_Video(id));
         }
         [HttpPost]
-        public ActionResult Curso_Tema_VideoEdit(int id, Curso_Tema_Video datos)
+        public ActionResult Curso_Tema_VideoEdit(int id, Curso datos)
         {
-            datos.IdCTV = id;
+            datos.IdCurso = id;
             repoCTV.actualizarCurso_Tema_Video(datos);
             return RedirectToAction("Curso_Tema_Video");
         }

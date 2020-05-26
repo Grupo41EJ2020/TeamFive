@@ -7,8 +7,8 @@ namespace MVCLaboratorio.Models
 {
     public class Curso
     {
-        public int IdCTV { get; set; }
-        public int IdCT { get; set; }
-        public int IdVideo { get; set; }
+        public int IdCurso { get; set; }
+        public string Descripcion { get; set; }
+        public int IdEmpleado { get; set; }
     }
 }

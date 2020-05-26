@@ -71,11 +71,14 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Curso.cs" />
     <Compile Include="Models\Curso_Tema_Video.cs" />
     <Compile Include="Models\Empleado.cs" />
+    <Compile Include="Models\iCurso.cs" />
     <Compile Include="Models\iCurso_Tema_Video.cs" />
     <Compile Include="Models\iEmpleado.cs" />
     <Compile Include="Models\iTema.cs" />
+    <Compile Include="Models\RepositorioCurso.cs" />
     <Compile Include="Models\RepositorioCurso_Tema_Video.cs" />
     <Compile Include="Models\RepositorioEmpleado.cs" />
     <Compile Include="Models\RepositorioTema.cs" />
