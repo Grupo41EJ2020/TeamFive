@@ -5,7 +5,7 @@ using System.Web;
 
 namespace MVCLaboratorio.Models
 {
-    public class Curso
+    public class Curso_Tema_Video
     {
         public int IdCTV { get; set; }
         public int IdCT { get; set; }

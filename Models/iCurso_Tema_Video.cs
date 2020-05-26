@@ -5,7 +5,7 @@ using System.Web;
 
 namespace MVCLaboratorio.Models
 {
-    public interface iCurso
+    public interface iCurso_Tema_Video
     {
         List<Curso> obtenerCurso_Tema_Video();
         Curso obtenerCurso_Tema_Video(int idCurso_Tema_Video);

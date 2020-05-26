@@ -16,7 +16,7 @@ namespace MVCLaboratorio.Controllers
         // GET: /Curso_Tema_Video/
 
         //Curso Tema Video
-        RepositorioCurso_Tema_Curso_Tema_Video repoCTV = new RepositorioCurso_Tema_Curso_Tema_Video();
+        RepositorioCurso_Tema_Video repoCTV = new RepositorioCurso_Tema_Video();
         public ActionResult Index()
         {
             return View();
@@ -37,9 +37,9 @@ namespace MVCLaboratorio.Controllers
             return View(repoCTV.obtenerCurso_Tema_Video(id));
         }
         [HttpPost]
-        public ActionResult Curso_Tema_VideoInsert(int id, Curso datos)
+        public ActionResult Curso_Tema_VideoInsert(int id, Curso_Tema_Video datos)
         {
-            datos.IdCurso = id;
+            datos.IdCTV = id;
             repoCTV.insertarCurso_Tema_Video(datos);
             return RedirectToAction("Curso_Tema_Video");
         }
@@ -60,9 +60,9 @@ namespace MVCLaboratorio.Controllers
             return View(repoCTV.obtenerCurso_Tema_Video(id));
         }
         [HttpPost]
-        public ActionResult Curso_Tema_VideoEdit(int id, Curso datos)
+        public ActionResult Curso_Tema_VideoEdit(int id, Curso_Tema_Video datos)
         {
-            datos.IdCurso = id;
+            datos.IdCTV = id;
             repoCTV.actualizarCurso_Tema_Video(datos);
             return RedirectToAction("Curso_Tema_Video");
         }
