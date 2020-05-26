@@ -19,7 +19,7 @@ namespace MVCLaboratorio.Models
                 foreach (DataRow item in dtTema.Rows)
                 {
                     Tema datosTema = new Tema();
-                    datosTema.IdTema = int.Parse(item["IdTema"].ToString());
+                    datosTema.IdTema = int.Parse(item["IdTema"].ToString()); 
                     datosTema.Nombre = (item["Nombre"].ToString());
                     IstTema.Add(datosTema);
                 }
