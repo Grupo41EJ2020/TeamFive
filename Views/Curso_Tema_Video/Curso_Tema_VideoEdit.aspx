@@ -15,14 +15,14 @@
         }
     </style>
 </head>
-<body background ="../../Content/Imagenes/fondo-2.jpg" />
+<body background ="../../Content/Imagenes/fondo-2%20(2).jpg" />
+        <% using (Html.BeginForm()) {%>
+        <%: Html.ValidationSummary(true) %>
     <fieldset>
     <legend class="style2" Detalles</legend>
     <table style="font-size: medium; color: #000000; border-style: groove; border-color: #c4b3c3; font-weight: normal; 
     border-collapse: separate; border-spacing:center ; font-size: 30pt; font-family: Stabillo; font-weight: normal;" title="Detalles">
-    <% using (Html.BeginForm()) {%>
-        <%: Html.ValidationSummary(true) %>
-            <div class="editor-label">
+        <div class="editor-label">
                 <%: Html.LabelFor(model => model.IdCTV) %>
                 </div>
             <div class="editor-field">
@@ -46,7 +46,7 @@
             </table>
         </fieldset>
         <p>
-                <input type="submit" value="Guardar" style="font-size: medium; color: Black; font-weight: normal; font-family: Segoe UI Semibold; border-collapse: separate; border-spacing: inherit; background-color: #a0b1e8; border-bottom-color: Black"> 
+                <input type="submit" value="Guardar" class =style2> 
             </p>
     <% } %>
 

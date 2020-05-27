@@ -53,7 +53,6 @@ namespace MVCLaboratorio.Models
             public void insertarCurso_Tema_Video(Curso_Tema_Video datosCurso_Tema_Video)
             {
                 List<SqlParameter> parametros = new List<SqlParameter>();
-                parametros.Add(new SqlParameter("@IdCTV", datosCurso_Tema_Video.IdCTV));
                 parametros.Add(new SqlParameter("@IdCT", datosCurso_Tema_Video.IdCT));
                 parametros.Add(new SqlParameter("@IdVideo", datosCurso_Tema_Video.IdVideo));
 

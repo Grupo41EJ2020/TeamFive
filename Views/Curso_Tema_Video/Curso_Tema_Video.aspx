@@ -65,9 +65,9 @@
 
     </table>
 
-<p style="font-family: ChickenPie; font-size: medium; color: #420f3f; font-weight: normal; border-collapse: separate; border-spacing: inherit;" 
+<p style="font-size: medium; color: #420f3f; font-weight: normal; border-collapse: separate; border-spacing: inherit;" 
         title="Curso Tema Video"> <span class="style2">
- <%: Html.ActionLink("Crear Nuevo Curso Tema Video", "Curso_Tema_VideoInsert")%>
+ <%: Html.ActionLink("Crear Nuevo", "Curso_Tema_VideoInsert")%>
  </span>
 </p>
 
