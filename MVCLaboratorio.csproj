@@ -83,11 +83,14 @@
     <Compile Include="Models\iCurso_Tema_Video.cs" />
     <Compile Include="Models\iEmpleado.cs" />
     <Compile Include="Models\iTema.cs" />
+    <Compile Include="Models\iVideo.cs" />
     <Compile Include="Models\RepositorioCurso.cs" />
     <Compile Include="Models\RepositorioCurso_Tema_Video.cs" />
     <Compile Include="Models\RepositorioEmpleado.cs" />
     <Compile Include="Models\RepositorioTema.cs" />
+    <Compile Include="Models\RepositorioVideo.cs" />
     <Compile Include="Models\Tema.cs" />
+    <Compile Include="Models\Video.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilerias\BaseHelper.cs" />
   </ItemGroup>
@@ -109,6 +112,11 @@
     <Content Include="Views\Curso_Tema_Video\Curso_Tema_VideoEdit.aspx" />
     <Content Include="Views\Curso_Tema_Video\Curso_Tema_VideoInsert.aspx" />
     <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\Video\Video.aspx" />
+    <Content Include="Views\Video\VideoDelete.aspx" />
+    <Content Include="Views\Video\VideoDetails.aspx" />
+    <Content Include="Views\Video\VideoEdit.aspx" />
+    <Content Include="Views\Video\VideoInsert.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

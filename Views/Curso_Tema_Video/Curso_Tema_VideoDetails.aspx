@@ -8,15 +8,15 @@
         <style type="text/css">
         .style1
         {
-            font-size: 30pt;
-            font-family: ChickenPie;
+            font-size: 20pt;
+            font-family: Arial Rounded MT Bold;
             font-weight: normal;
             text-align: center;
         }
          .style2
         {
-            font-size: 30pt;
-            font-family: Stabillo;
+            font-size: 20pt;
+            font-family: Cooper Black;
             font-weight: normal;
             text-align: center;
         }
@@ -25,7 +25,7 @@
 <body background ="../../Content/Imagenes/background.jpg" />
     <fieldset>
     <legend class="style2" Detalles</legend>
-    <table style="font-family: ChickenPie; font-size: medium; color: #000000; border-style: groove; border-color: #c4b3c3; font-weight: normal; 
+    <table style="font-family: Arial Rounded MT Bold; font-size: medium; color: #000000; border-style: groove; border-color: #c4b3c3; font-weight: normal; 
     border-collapse: separate; border-spacing: center;" title="Detalles">
         <br />
         <th class="style2">
@@ -39,7 +39,7 @@
         <div class="display-field"><%: Model.IdVideo %></div>
 </table>
     </fieldset>
-<p style="font-family: ChickenPie; font-size: medium; color: #000000; font-weight: normal; border-collapse: separate; border-spacing: inherit"> <span class="style2">
+<p style="font-family: Arial Rounded MT Bold; font-size: medium; color: #000000; font-weight: normal; border-collapse: separate; border-spacing: inherit"> <span class="style2">
         <%: Html.ActionLink("Editar", "Curso_Tema_VideoEdit", new { id=Model.IdCTV}) %> |
         <%: Html.ActionLink("Regresar a la tabla", "Curso_Tema_Video") %>
         </span>

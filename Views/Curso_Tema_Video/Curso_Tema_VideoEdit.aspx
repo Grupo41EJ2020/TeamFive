@@ -8,8 +8,8 @@
     <style type="text/css">
          .style2
         {
-            font-size: 30pt;
-            font-family: Stabillo;
+            font-size:20pt;
+            font-family: Cooper Black;
             font-weight: normal;
             text-align: center;
         }

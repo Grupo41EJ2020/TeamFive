@@ -76,5 +76,5 @@ namespace MVCLaboratorio.Models
 
                 BaseHelper.ejecutarConsulta("sp_Curso_Tema_Video_Actualizar", CommandType.StoredProcedure, parametros);
             }
-        }
+    }
     }

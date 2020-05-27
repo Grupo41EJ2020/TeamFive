@@ -8,24 +8,26 @@
     <style type="text/css">
         .style1
         {
-            font-size: 30pt;
-            font-family: ChickenPie;
+            font-size: 20pt;
+            font-family: Arial Rounded MT Bold;
             font-weight: normal;
             text-align: center;
         }
          .style2
         {
-            font-size: 30pt;
-            font-family: Stabillo;
+            font-size: 20pt;
+            font-family: Cooper Black;
             font-weight: normal;
             text-align: center;
         }
     </style>
 </head>
-<a href="/Home/Index" style="color:#000000; font-size: 30px; text-align:left">Regresar a Inicio</a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 <body background = "../../Content/Imagenes/fondo-1.png" /> 
-<table style="font-family: ChickenPie; font-size: medium; color: #420f3f; border-style: groove; border-color: #c4b3c3; font-weight: normal; 
+<nav>
+        <a href="/Home/Index" style="color:#000000; font-size: 30px; text-align:left">Regresar a Inicio</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</nav>
+<table style="font-family: Comic Sans MS; font-size: medium; color: #420f3f; border-style: groove; border-color: #c4b3c3; font-weight: normal; 
     border-collapse: separate; border-spacing: center;" title="Curso Tema Video">
         <tr>
             <th></th>
@@ -62,15 +64,8 @@
         </tr>
     
     <% } %>
-
     </table>
-
-<p style="font-size: medium; color: #420f3f; font-weight: normal; border-collapse: separate; border-spacing: inherit;" 
-        title="Curso Tema Video"> <span class="style2">
- <%: Html.ActionLink("Crear Nuevo", "Curso_Tema_VideoInsert")%>
- </span>
-</p>
-
+    <span class="style2">&nbsp;<%: Html.ActionLink("Agregar Nuevo", "Curso_Tema_VideoInsert") %></span>
 </body>
 </html>
 
