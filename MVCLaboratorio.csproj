@@ -129,6 +129,7 @@
     <Content Include="Views\Tema\Tema.aspx" />
     <Content Include="Views\Tema\TemaDelete.aspx" />
     <Content Include="Views\Tema\TemaDetails.aspx" />
+    <Content Include="Views\Tema\TemaEdit.aspx" />
     <Content Include="Views\Video\Video.aspx" />
     <Content Include="Views\Video\VideoDelete.aspx" />
     <Content Include="Views\Video\VideoDetails.aspx" />

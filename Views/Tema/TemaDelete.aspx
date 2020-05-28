@@ -21,7 +21,7 @@
     </fieldset>
     <% using (Html.BeginForm()) { %>
         <p>
-		    <input type="submit" value="Delete" class="boton_personalizado" /> |
+		    <input type="submit" value="Borrar" class="boton_personalizado" /> |
 		    <%: Html.ActionLink("Regresar", "Tema") %>
         </p>
     <% } %>
