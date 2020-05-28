@@ -127,6 +127,7 @@
     <Content Include="Views\Curso_Tema_Video\Curso_Tema_VideoInsert.aspx" />
     <Content Include="Views\Home\Index.aspx" />
     <Content Include="Views\Tema\Tema.aspx" />
+    <Content Include="Views\Tema\TemaDetails.aspx" />
     <Content Include="Views\Video\Video.aspx" />
     <Content Include="Views\Video\VideoDelete.aspx" />
     <Content Include="Views\Video\VideoDetails.aspx" />
