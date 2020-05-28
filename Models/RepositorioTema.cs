@@ -11,7 +11,7 @@ namespace MVCLaboratorio.Models
 {
     public class RepositorioTema : iTema
     {
-            public List<Tema> obtenerTema()
+            public List<Tema> obtenerTemas()
             {
                 DataTable dtTema = BaseHelper.ejecutarConsulta("sp_Tema_ConsultarTodo", CommandType.StoredProcedure);
                 List<Tema> IstTema = new List<Tema>();

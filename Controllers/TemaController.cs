@@ -18,7 +18,7 @@ namespace MVCLaboratorio.Controllers
         }
         public ActionResult Tema()
         {
-            return View(repoTema.obtenerTema());
+            return View(repoTema.obtenerTemas());
         }
 
         public ActionResult TemaDetails(int id)
