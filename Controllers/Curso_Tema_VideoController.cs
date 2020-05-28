@@ -35,7 +35,7 @@ namespace MVCLaboratorio.Controllers
 
         public ActionResult Curso_Tema_VideoInsert()
         {
-            return View(repoCTV.obtenerCurso_Tema_Videos());
+            return View();
         }
         [HttpPost]
         public ActionResult Curso_Tema_VideoInsert(Curso_Tema_Video datos)
