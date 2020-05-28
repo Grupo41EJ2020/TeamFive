@@ -77,14 +77,17 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Curso.cs" />
+    <Compile Include="Models\Curso_Tema.cs" />
     <Compile Include="Models\Curso_Tema_Video.cs" />
     <Compile Include="Models\Empleado.cs" />
     <Compile Include="Models\iCurso.cs" />
+    <Compile Include="Models\iCurso_Tema.cs" />
     <Compile Include="Models\iCurso_Tema_Video.cs" />
     <Compile Include="Models\iEmpleado.cs" />
     <Compile Include="Models\iTema.cs" />
     <Compile Include="Models\iVideo.cs" />
     <Compile Include="Models\RepositorioCurso.cs" />
+    <Compile Include="Models\RepositorioCurso_Tema.cs" />
     <Compile Include="Models\RepositorioCurso_Tema_Video.cs" />
     <Compile Include="Models\RepositorioEmpleado.cs" />
     <Compile Include="Models\RepositorioTema.cs" />
@@ -112,6 +115,11 @@
     <Content Include="Views\Curso\CursoDetails.aspx" />
     <Content Include="Views\Curso\CursoEdit.aspx" />
     <Content Include="Views\Curso\CursoInsert.aspx" />
+    <Content Include="Views\Curso_Tema\Curso_Tema.aspx" />
+    <Content Include="Views\Curso_Tema\Curso_TemaDelete.aspx" />
+    <Content Include="Views\Curso_Tema\Curso_TemaDetails.aspx" />
+    <Content Include="Views\Curso_Tema\Curso_TemaEdit.aspx" />
+    <Content Include="Views\Curso_Tema\Curso_TemaInsert.aspx" />
     <Content Include="Views\Curso_Tema_Video\Curso_Tema_Video.aspx" />
     <Content Include="Views\Curso_Tema_Video\Curso_Tema_VideoDelete.aspx" />
     <Content Include="Views\Curso_Tema_Video\Curso_Tema_VideoDetails.aspx" />
