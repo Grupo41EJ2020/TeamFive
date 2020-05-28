@@ -50,8 +50,7 @@ namespace MVCLaboratorio.Models
 
             public void insertarTema(Tema datosTema)
             {
-                List<SqlParameter> parametros = new List<SqlParameter>();
-                parametros.Add(new SqlParameter("@IdTema", datosTema.IdTema));
+                List<SqlParameter> parametros = new List<SqlParameter>();  
                 parametros.Add(new SqlParameter("@Nombre", datosTema.Nombre));
                 BaseHelper.ejecutarSentencia("sp_Tema_Insertar", CommandType.StoredProcedure, parametros);
             }
