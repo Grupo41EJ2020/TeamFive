@@ -9,7 +9,7 @@ using MVCLaboratorio.Models;
 
 namespace MVCLaboratorio.Models
 {
-    public class RepositorioTema
+    public class RepositorioTema : iTema
     {
             public List<Tema> obtenerTema()
             {

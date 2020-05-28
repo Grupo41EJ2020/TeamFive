@@ -103,6 +103,7 @@
     <Content Include="Content\Imagenes\fondo-4.jpg" />
     <Content Include="Content\Imagenes\fondo-5.jpg" />
     <Content Include="Content\Imagenes\fondo.jpg" />
+    <Content Include="Content\Imagenes\images.jpg" />
     <Content Include="Content\Imagenes\TeamFive.png" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -117,6 +118,7 @@
     <Content Include="Views\Curso_Tema_Video\Curso_Tema_VideoEdit.aspx" />
     <Content Include="Views\Curso_Tema_Video\Curso_Tema_VideoInsert.aspx" />
     <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\Tema\Tema.aspx" />
     <Content Include="Views\Video\Video.aspx" />
     <Content Include="Views\Video\VideoDelete.aspx" />
     <Content Include="Views\Video\VideoDetails.aspx" />
