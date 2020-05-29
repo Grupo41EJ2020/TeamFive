@@ -11,7 +11,7 @@ namespace MVCLaboratorio.Models
 {
     public class RepositorioEmpleado
     {
-        public List<Empleado> obtenerEmpleado()
+        public List<Empleado> obtenerEmpleados()
         {
             DataTable dtEmpleado = BaseHelper.ejecutarConsulta("sp_Empleado_ConsultarTodo", CommandType.StoredProcedure);
             List<Empleado> IstEmpleado = new List<Empleado>();
@@ -53,7 +53,6 @@ namespace MVCLaboratorio.Models
         public void insertarEmpleado(Empleado datosEmpleado)
         {
             List<SqlParameter> parametros = new List<SqlParameter>();
-            parametros.Add(new SqlParameter("@IdEmpleado", datosEmpleado.IdEmpleado));
             parametros.Add(new SqlParameter("@Nombre", datosEmpleado.Nombre));
             parametros.Add(new SqlParameter("@Direccion", datosEmpleado.Direccion));
             BaseHelper.ejecutarSentencia("sp_Empleado_Insertar", CommandType.StoredProcedure, parametros);
