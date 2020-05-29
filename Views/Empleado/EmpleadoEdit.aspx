@@ -1,17 +1,17 @@
-﻿<%@ Page Language="C#" Inherits="System.Web.Mvc.ViewPage<dynamic>" %>
+﻿<%@ Page Language="C#" Inherits="System.Web.Mvc.ViewPage<MVCLaboratorio.Models.Empleado>" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Editar Empleado</title>
+    <title>EmpleadoEdit</title>
 </head>
 <body>
     <% using (Html.BeginForm()) {%>
         <%: Html.ValidationSummary(true) %>
         
         <fieldset>
-            <legend>Datos Empleado</legend>
+            <legend>Datos</legend>
             
             <div class="editor-label">
                 <%: Html.LabelFor(model => model.IdEmpleado) %>
@@ -45,8 +45,9 @@
     <% } %>
 
     <div>
-        <%: Html.ActionLink("Regresar a la lista", "Empleado") %>
+        <%: Html.ActionLink("Regresar a la Lista", "Empleado") %>
     </div>
 
 </body>
 </html>
+

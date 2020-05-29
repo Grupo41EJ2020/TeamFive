@@ -33,7 +33,7 @@ namespace MVCLaboratorio.Controllers
             return View();
         }
         [HttpPost]
-        public ActionResult Curso(Curso datos)
+        public ActionResult CursoInsert(Curso datos)
         {
             repoCurso.insertarCurso(datos);
             return RedirectToAction("Curso");

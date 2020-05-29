@@ -47,7 +47,7 @@
 
     <p>
         <%: Html.ActionLink("Crear Nuevo", "EmpleadoInsert") %>
-        <%: Html.ActionLink("Regresar", "Index","Home") %>
+        <a href="/Home/Index">Regresar a Inicio</a>
     </p>
 
 </body>

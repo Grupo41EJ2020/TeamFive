@@ -11,7 +11,7 @@
         <%: Html.ValidationSummary(true) %>
 
         <fieldset>
-            <legend>Fields</legend>
+            <legend>Datos</legend>
             
             <div class="editor-label">
                 <%: Html.LabelFor(model => model.Descripcion) %>
@@ -37,7 +37,7 @@
     <% } %>
 
     <div>
-        <%: Html.ActionLink("Regresar a la lista", "Curso") %>
+        <%: Html.ActionLink("Regresar a la Lista", "Curso") %>
     </div>
 
 </body>
