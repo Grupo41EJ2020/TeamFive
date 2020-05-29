@@ -4,15 +4,29 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>EmpleadoInsert</title>
+    <title>Insertar Empleado</title>
+    <style type="text/css">
+         .style1
+        {
+            font-size: 20pt;
+            font-family: Cooper Black;
+            font-weight: normal;
+            text-align: center;
+        }
+    </style>
+<meta charset="UTF-8">
+<meta name="description" content="ASP.NET MVC 2.0">
+<meta name="keywords" content="ASP.NET,MVC,FACPYA">
+<meta name="author" content="Team Five">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
+<body background ="../../Content/Imagenes/fondo17.jpg" />
     <% using (Html.BeginForm()) {%>
         <%: Html.ValidationSummary(true) %>
 
-        <fieldset>
-            <legend>Datos</legend>
-            
+        <fieldset class=style1>
+            <legend class=style1>Nuevo Registro</legend>
+
             <div class="editor-label">
                 <%: Html.LabelFor(model => model.Nombre) %>
             </div>
@@ -30,13 +44,13 @@
             </div>
             
             <p>
-                <input type="submit" value="Crear Nuevo" />
+                <input type="submit" value="Crear" class =style1 />
             </p>
         </fieldset>
 
     <% } %>
 
-    <div>
+    <div class =style1>
         <%: Html.ActionLink("Regresar a la Lista", "Empleado") %>
     </div>
 

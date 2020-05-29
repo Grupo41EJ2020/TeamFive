@@ -21,6 +21,11 @@
             text-align: center;
         }
     </style>
+<meta charset="UTF-8">
+<meta name="description" content="ASP.NET MVC 2.0">
+<meta name="keywords" content="ASP.NET,MVC,FACPYA">
+<meta name="author" content="Team Five">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body background ="../../Content/Imagenes/background.jpg" />
     <fieldset>
@@ -39,7 +44,8 @@
         <div class="display-field"><%: Model.IdVideo %></div>
 </table>
     </fieldset>
-<p style="font-family: Arial Rounded MT Bold; font-size: medium; color: #000000; font-weight: normal; border-collapse: separate; border-spacing: inherit"> <span class="style2">
+<p style="font-family: Arial Rounded MT Bold; font-size: medium; color: #000000; font-weight: normal; border-collapse: separate; border-spacing: inherit"> 
+<span class="style2">
         <%: Html.ActionLink("Editar", "Curso_Tema_VideoEdit", new { id=Model.IdCTV}) %> |
         <%: Html.ActionLink("Regresar a la tabla", "Curso_Tema_Video") %>
         </span>

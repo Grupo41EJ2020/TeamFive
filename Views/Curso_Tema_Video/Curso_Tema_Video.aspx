@@ -21,8 +21,13 @@
             text-align: center;
         }
     </style>
+<meta charset="UTF-8">
+<meta name="description" content="ASP.NET MVC 2.0">
+<meta name="keywords" content="ASP.NET,MVC,FACPYA">
+<meta name="author" content="Team Five">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body background = "../../Content/Imagenes/fondo-1.png" /> 
+<body background="../../Content/Imagenes/fondo5.jpg" />
 <nav>
         <a href="/Home/Index" style="color:#000000; font-size: 30px; text-align:left">Regresar a Inicio</a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
@@ -66,6 +71,8 @@
     <% } %>
     </table>
     <span class="style2">&nbsp;<%: Html.ActionLink("Agregar Nuevo", "Curso_Tema_VideoInsert") %></span>
+<br />
+<img src="../../Content/Imagenes/cursotvt.png" style="margin-left: 250px"/>
 </body>
 </html>
 

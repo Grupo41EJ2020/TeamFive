@@ -14,21 +14,20 @@
             text-align: center;
         }
     </style>
+<meta charset="UTF-8">
+<meta name="description" content="ASP.NET MVC 2.0">
+<meta name="keywords" content="ASP.NET,MVC,FACPYA">
+<meta name="author" content="Team Five">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body background ="../../Content/Imagenes/fondo-2%20(2).jpg" />
+<body background ="../../Content/Imagenes/fondo2.jpg" />
         <% using (Html.BeginForm()) {%>
         <%: Html.ValidationSummary(true) %>
     <fieldset>
-    <legend class="style2" Detalles</legend>
+    <legend class="style2" Editar</legend>
     <table style="font-size: medium; color: #000000; border-style: groove; border-color: #c4b3c3; font-weight: normal; 
-    border-collapse: separate; border-spacing:center ; font-size: 30pt; font-family: Stabillo; font-weight: normal;" title="Detalles">
-        <div class="editor-label">
-                <%: Html.LabelFor(model => model.IdCTV) %>
-                </div>
-            <div class="editor-field">
-                <%: Html.TextBoxFor(model => model.IdCTV) %>
-                <%: Html.ValidationMessageFor(model => model.IdCTV) %>
-                </div>
+    border-collapse: separate; border-spacing:center ; font-size: 30pt; font-family: Cooper Black; font-weight: normal;" title="Editar">
+        
             <div class="editor-label">
                 <%: Html.LabelFor(model => model.IdCT) %>
                 </div>
@@ -55,7 +54,7 @@
         <%: Html.ActionLink("Regresar a la tabla", "Curso_Tema_Video") %>
         </p>
     </div>
-
+    </span>
 </body>
 </html>
 

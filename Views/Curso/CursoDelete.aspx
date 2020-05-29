@@ -4,10 +4,25 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>CursoDelete</title>
+    <title>Borrar Curso</title>
+    <style type="text/css">
+         .style1
+        {
+            font-size: 20pt;
+            font-family: Cooper Black;
+            font-weight: normal;
+            text-align: center;
+        }
+    </style>
+<meta charset="UTF-8">
+<meta name="description" content="ASP.NET MVC 2.0">
+<meta name="keywords" content="ASP.NET,MVC,FACPYA">
+<meta name="author" content="Team Five">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
-    <h3>Estas seguro de querer borrar esta informacion?</h3>
+<body background ="../../Content/Imagenes/fondo8.jpg" />
+<fieldset class = style1>
+    <h3 class = style1>¿Estas seguro de querer borrar esta informacion?</h3>
     <fieldset>
         <legend>Datos</legend>
         
@@ -22,8 +37,8 @@
         
     </fieldset>
     <% using (Html.BeginForm()) { %>
-        <p>
-		    <input type="submit" value="Borrar" /> |
+        <p class = style1>
+		    <input type="submit" value="Borrar" class = style1 /> |
 		    <%: Html.ActionLink("Regresar a la lista", "Curso") %>
         </p>
     <% } %>

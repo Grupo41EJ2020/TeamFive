@@ -33,15 +33,15 @@ namespace MVCLaboratorio.Controllers
 
         public ActionResult VideoInsert()
         {
-            return View(repoVideo.obtenerVideos());
+            return View();
         }
         [HttpPost]
-        public ActionResult VideoInsert(int id, Video datos)
+        public ActionResult VideoInsert(Video datos)
         {
-            datos.IdVideo = id;
             repoVideo.insertarVideo(datos);
             return RedirectToAction("Video");
         }
+
 
         public ActionResult VideoDelete(int id)
         {
