@@ -30,12 +30,11 @@ namespace MVCLaboratorio.Controllers
         }
         public ActionResult CursoInsert()
         {
-            return View(repoCurso.obtenerCursos());
+            return View();
         }
         [HttpPost]
-        public ActionResult CursoInsert(int id, Curso datos)
+        public ActionResult Curso(Curso datos)
         {
-            datos.IdCurso = id;
             repoCurso.insertarCurso(datos);
             return RedirectToAction("Curso");
         }
